@@ -1,0 +1,26 @@
+{
+  "01": {
+    "name": "DIC01",
+    "price": "10,000yen",
+    "sale-price": "",
+    "normal-price": "",
+    "link": "#",
+    "path": "sample_01.jpg"
+  },
+  "02": {
+    "name": "DIC02",
+    "price": "20,000yen",
+    "sale-price": "",
+    "normal-price": "",
+    "link": "#",
+    "path": "sample_02.jpg"
+  },
+  "03": {
+    "name": "DIC03",
+    "price": "",
+    "sale-price": "5,000yen",
+    "normal-price": "30,000yen",
+    "link": "#",
+    "path": "sample_03.jpg"
+  }
+}

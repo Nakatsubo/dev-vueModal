@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>Moadl Test by Vue.js</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+
+    <div id="app" class="product_list_special">
+        <ul>
+            <li v-for="product in products">
+                <a @click="openModal(product)" @keyup.esc="closeModal()">
+                    <img :src="`./assets/img/${product.path}`" :alt="`${product.name}`" width="100">
+                </a>
+            </li>
+        </ul>
+        <modal></modal>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+
+  </body>
+</html>
